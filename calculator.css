@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(red, blue);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: right;
+  background-color: #000000;
+  color: #03ff03;
+}
+input[value="ON/OFF"] {
+  background: linear-gradient(rgb(255, 3, 3));
+}
+input[value="B/S"],
+[value="C"],
+[value="+"],
+[value="-"],
+[value="*"],
+[value="/"],
+select {
+  background-color: orangered;
+}
+input[value="1"],
+[value="2"],
+[value="3"],
+[value="4"],
+[value="5"],
+[value="6"],
+[value="7"],
+[value="8"],
+[value="9"],
+[value="0"],
+[value="."],
+select {
+  background-color: rgba(45, 12, 233, 0.863);
+}
+input[value="="] {
+  background-color: #27fa27;
+  width: 125px;
+}
+form {
+  background-color: white;
+  width: 260px;
+  height: 430px;
+  border-radius: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.btn {
+  border-radius: 20px;
+  width: 60px;
+  height: 55px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
