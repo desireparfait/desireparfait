@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @desireparfait
+    - 👋 Hi, I’m @desireparfait
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
@@ -14,15 +14,15 @@ You can click the Preview link to take a look at your changes.
 <html>
 <head>
     <title>page test</title>
-    <link rel="stylesheet" href="https://www.xnxx.com">
+    <link rel="stylesheet" href="https://www.google.com">
     <script>
         function validateForm() {
-            var nom = document.getElementById("nom").value;
-            var prenom = document.getElementById("prenom").value;
-            var age = document.getElementById("age").value;
-            var email = document.getElementById("email").value;
-            var password = document.getElementById("password").value;
-            var confirmPassword = document.getElementById("confirmPassword").value;
+            const nom = document.getElementById("nom").value;
+            const prenom = document.getElementById("prenom").value;
+            const age = document.getElementById("age").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
 
             if (!nom || !prenom || !age || !email || !sexe || !password || !confirmPassword) {
                 alert("Veuillez remplir tous les champs.");
